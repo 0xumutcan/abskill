@@ -78,7 +78,7 @@ export default function MobileBlock({ children }: { children: React.ReactNode })
             {/* OK button */}
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
-                onClick={() => window.open("https://x.com/0xabstract", "_blank")}
+                onClick={() => {}}
                 style={{
                   padding: "4px 28px",
                   fontSize: 12,
