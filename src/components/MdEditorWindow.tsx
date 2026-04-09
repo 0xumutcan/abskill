@@ -1079,11 +1079,33 @@ export default function MdEditorWindow({ platform }: { platform: string }) {
                 borderTop: "1px solid var(--win-darker)",
                 fontSize: 10,
                 color: "var(--win-darker)",
-                textAlign: "right",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
                 flexShrink: 0,
               }}
             >
-              {charCount.toLocaleString()} chars
+              <span>
+                Inspired from{" "}
+                <a
+                  href="https://x.com/Aizcalibur"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", textDecoration: "underline" }}
+                >
+                  Aiz
+                </a>
+                {"'s "}
+                <a
+                  href="https://agent-workspace-builder.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", textDecoration: "underline" }}
+                >
+                  Workspace Builder
+                </a>
+              </span>
+              <span>{charCount.toLocaleString()} chars</span>
             </div>
           </div>
         </div>
