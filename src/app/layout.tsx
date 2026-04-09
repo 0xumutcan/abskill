@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { VT323 } from "next/font/google";
 import "./globals.css";
+import MobileBlock from "@/components/MobileBlock";
 
 const vt323 = VT323({
   weight: "400",
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={vt323.variable}>
-      <body>{children}</body>
+      <body><MobileBlock>{children}</MobileBlock></body>
     </html>
   );
 }
