@@ -12,6 +12,9 @@ const vt323 = VT323({
 export const metadata: Metadata = {
   title: "abSkill",
   description: "Abstract L2 Agent Skills",
+  icons: {
+    icon: "/favicon.jpg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
