@@ -18,6 +18,14 @@ export const READINGS: Reading[] = [
     type: "article",
   },
   {
+    id: "thin-harness-fat-skills",
+    title: "Thin Harness, Fat Skills",
+    description: "The 100x engineers aren't using better models. They're using the same models — just with better architecture. The difference fits on an index card.",
+    url: "https://x.com/garrytan/status/2042925773300908103",
+    type: "article",
+    tag: "Garry Tan",
+  },
+  {
     id: "x402-micropayments",
     title: "The Micropayments Breakthrough",
     description: "Coinbase contributed x402 to the Linux Foundation, making it a neutral internet standard. x402 lets AI agents pay for services mid-task, settling instantly with stablecoins — no API keys, no subscriptions, no human approval.",
